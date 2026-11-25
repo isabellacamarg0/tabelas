@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse ;
+    border: 1px solid #cccccc;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border: none;
+}
+.p_coluna {
+    text-align: left;
+    padding-left: 20px;
+}
+
+th:nth-child(1){
+    background-color: rgb(242, 242, 242);
+    color: rgb(0, 0, 0);
+}
+th:nth-child(2){
+    background-color: rgb(85, 92, 102) ;
+    color: white;
+}
+th:nth-child(3){
+    background-color: rgb(232, 81, 109) ;
+    color: white;
+}
+th:nth-child(4){
+    background-color: rgb(112, 207, 105) ;
+    color: white;
+}
+
+
+.rx-btn {
+    background-color: white;
+    color: rgb(111, 62, 158);
+    width: 180px;
+    height: 35px;
+}
+.rs-btn {
+    background-color: rgb(232, 81, 109);
+    color: white;
+    width: 180px;
+    height: 35px;
+}
+.t-meio {
+    background-color: rgb(245, 247, 250);
+}
